@@ -1,5 +1,6 @@
 # Fedor-Bot
 Hello! I'm a programming beginner and made a chat manager analogue of Iris! Fedor bot! 
+
 ==== WHAT CAN THIS BOT DO? ====
 1. Has its own moderation system (Femboy Mod. System (FMS))
 2. Own currency (coins and femdits (something like a kopeck and a ruble)
