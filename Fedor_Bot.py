@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8328982592:AAGXRR5pJmrQzqk6dknzDaxgVeS0Q_Gnda0"
+BOT_TOKEN = "YOUR_TELEGRAMM_TOKEN_HERE"
 
 # Базы знаний Фёдора
 POSITIVE_RESPONSES = [
