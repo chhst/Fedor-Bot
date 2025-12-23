@@ -15,8 +15,8 @@ from openai import OpenAI
 # НАСТРОЙКИ
 # =======================
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "TELEGRAM_BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "OPENAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8328982592:AAGXRR5pJmrQzqk6dknzDaxgVeS0Q_Gnda0", "8328982592:AAGXRR5pJmrQzqk6dknzDaxgVeS0Q_Gnda0)
+OPENAI_API_KEY = os.getenv("sk-2KVLEadumdCYs1w7FauFp9Tr8iDWIl27QUToby4eaHOEtnQi", "sk-2KVLEadumdCYs1w7FauFp9Tr8iDWIl27QUToby4eaHOEtnQi)
 
 MODEL = "gpt-4o-mini"
 
@@ -91,7 +91,7 @@ def ask_chatgpt(user_text: str) -> str:
             {"role": "user", "content": user_text}
         ],
         temperature=0.9,
-        max_tokens=800
+        max_tokens=100
     )
     return response.choices[0].message.content.strip()
 
